@@ -9,6 +9,8 @@ dependencies {
 ```
 
 #### 使用gradle形式导入
+```java
 dependencies {
     compile 'com.hwong:lib_umeng:1.0.1'
 }
+```
