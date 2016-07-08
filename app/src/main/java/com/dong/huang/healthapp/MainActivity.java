@@ -54,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onError(SHARE_MEDIA platform, Throwable t) {
 
-            Log.i("123", "::" + t.getMessage());
-
             Toast.makeText(MainActivity.this, platform + "分享失败", Toast.LENGTH_SHORT).show();
         }
 
